@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.title("Hello Streamlit!")
+st.title("Hello Bisaya" )
 
 df = pd.DataFrame({
     'Column 1': [1, 2, 3, 4],
