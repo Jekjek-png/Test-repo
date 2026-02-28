@@ -4,4 +4,11 @@ import streamlit as st
 st.title("Hello Bisaya" )
 st.write("This is a simple Streamlit app to demonstrate how bisaya is roy is.")
 
-st.bar_chart (data=1, x=None, y=None, x_label=None, y_label=None, color=None, horizontal=False, sort=True, stack=None, width="stretch", height="content", use_container_width=None)
+# Create a DataFrame
+df = pd.DataFrame({
+    "Fruit": ["Apple", "Banana", "Orange", "Mango"],
+    "Quantity": [10, 25, 17, 8]
+})
+
+# Plot with x and y specified
+st.bar_chart(df, x="Fruit", y="Quantity")
