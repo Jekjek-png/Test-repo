@@ -12,3 +12,5 @@ df = pd.DataFrame({
 
 # Plot with x and y specified
 st.bar_chart(df, x="Fruit", y="Quantity")
+
+st.download_button( label="Download DataFrame as CSV")
