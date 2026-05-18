@@ -27,24 +27,6 @@
 
 
 ## Project Folder Structure
-├── backend/
-│   ├── Endpoints/
-│   │   ├── admin_auth.py
-│   │   ├── admin_getdashboard.py
-│   │   ├── user_postrespo.py
-│   │   ├── user_getservice.py
-│   │   └── rate_lim.py
-│   └── app.py
-├── data/
-│   ├── Survey_response.csv
-│   ├── Admins.csv
-│   └── Services.csv
-├── frontend/
-│   └── app.py
-├── .env
-├── .gitignore
-├── requirements.txt
-└── README.md
 
 ---
 
