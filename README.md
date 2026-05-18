@@ -50,17 +50,17 @@
 
 ## CSV File contents 
 
-*Admins.csv*
-- *Header names*
-    - | username | salt | pwd_hash | service_id |
+## 📂 Admins.csv
+| username | salt | pwd_hash | service_id |
+|----------|------|----------|-------------|
 
-*Services_csv*
-- *Header names*
-    - | service_id | service_name | 
+## 📂 Services.csv
+| service_id | service_name |
+|------------|--------------|
 
-*Survey_response.csv*
-- *Header names*
-    - | service_id | service_availed | respondent_name | date_of_visit | age_bracket | gender | category_of_respondent | cc1 | cc2| cc3 | service_satisfaction(1-5) | service_time(1-5) | service_requirements(1-5) | service_steps(1-5) | service_transaction(1-5) | service_fee(1-5 or N/A) | service_fair(1-5) | service_courtesy(1-5) | service_request(1-5) | comments_suggestions | attending_employee | comments_suggestions_for_employee |
+## 📂 Survey_response.csv
+| service_id | service_availed | respondent_name | date_of_visit | age_bracket | gender | category_of_respondent | cc1 | cc2 | cc3 | service_satisfaction (1–5) | service_time (1–5) | service_requirements (1–5) | service_steps (1–5) | service_transaction (1–5) | service_fee (1–5 or N/A) | service_fair (1–5) | service_courtesy (1–5) | service_request (1–5) | comments_suggestions | attending_employee | comments_suggestions_for_employee |
+|------------|----------------|-----------------|---------------|-------------|--------|------------------------|-----|-----|-----|-----------------------------|--------------------|----------------------------|--------------------|---------------------------|---------------------------|-------------------|-----------------------|----------------------|----------------------|-------------------|----------------------------------|
 
 *Note: Survey_response.csv, Admins.csv, & Services.csv must exist first before deploying locally*
 
